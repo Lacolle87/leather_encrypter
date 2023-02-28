@@ -52,7 +52,6 @@ def get_int(keyword: str):
 
 
 # ceasar
-
 def coder(message: str, offset: int):
     return ''.join(chr((ord(ch) + offset) % N) for ch in message)
 
