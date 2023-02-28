@@ -8,15 +8,15 @@ from art import *
 N = 0x10FFFF
 
 tprint("Leather Encrypter")
-print('Welcome to the Leather Encrypter 0.6!')
+print('Welcome to the Leather Encrypter 0.61!')
 
 
 # inputs
 def question():
     question = input('Write 1 if you want to encrypt, 2 for decrypt: ')
-    if question.lower() == '1' or question.lower() == 'encrypt':
+    if question == '1' or question.lower() == 'encrypt':
         return 'encrypt'
-    elif question.lower() == '2' or question.lower() == 'decrypt':
+    elif question == '2' or question.lower() == 'decrypt':
         return 'decrypt'
     else:
         print('Please enter valid input')
