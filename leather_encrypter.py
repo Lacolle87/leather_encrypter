@@ -1,3 +1,5 @@
+import sys
+sys.path.append('venv\Lib\site-packages')
 import time
 from string import printable
 import pyperclip as pc
